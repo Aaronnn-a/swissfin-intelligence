@@ -1,0 +1,31 @@
+# Core ML / audio / NLP stack — pinned for reproducibility (late-2025).
+# CPU-compatible install path; CUDA wheels are picked automatically when
+# `pip install` runs on a CUDA-enabled host.
+
+torch==2.5.1
+transformers==4.46.3
+tokenizers==0.20.3
+safetensors==0.4.5
+accelerate==1.1.1
+sentencepiece==0.2.0
+
+openai-whisper==20240930
+librosa==0.10.2.post1
+pydub==0.25.1
+soundfile==0.12.1
+numpy==1.26.4
+
+pandas==2.2.3
+scikit-learn==1.5.2
+
+streamlit==1.40.1
+plotly==5.24.1
+matplotlib==3.9.2
+
+pydantic==2.9.2
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+
+yt-dlp==2025.10.22
+
+tqdm==4.67.1
